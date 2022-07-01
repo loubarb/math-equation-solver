@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#equation-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#equation {
+  width: 200px;
+  height: 50px;
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+button {
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: gray;
+}
