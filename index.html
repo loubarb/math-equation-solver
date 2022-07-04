@@ -5,19 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <script src="script.js" defer></script>
     <title>Math Solver</title>
   </head>
   <body>
     <div class="wrapper">
-      <h1>Math Equation Solver</h1>
-    </div>
-    <div class="container">
-      <form id="equation-form">
-        <input id="equation" />
-        <button type="submit">Solve</button>
-      </form>
-      <div id="results"></div>
+      <div class="title">
+        <h1>Math Equation Solver</h1>
+      </div>
+      <div class="description">
+        <p>
+          Enter any math equation in the box below and the tool will solve it
+          for you. The tool follows the standard order of operations and can
+          take in any of the following operators: (), +, -, *, /
+        </p>
+      </div>
+
+      <div class="container">
+        <form id="equation-form">
+          <input id="equation" />
+          <button type="submit">Solve</button>
+        </form>
+        <div id="results"></div>
+      </div>
     </div>
   </body>
 </html>

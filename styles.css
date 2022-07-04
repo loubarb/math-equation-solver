@@ -1,8 +1,34 @@
+body {
+  background: url('./img/math-operators.jpg');
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Open Sans', sans-serif;
+  color: gold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: red;
+  text-shadow: 4px 4px 8px #FF0000;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
 .wrapper {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: 50px;
+}
+
+.title, .description {
+  width: 500px;
 }
 
 .container {
@@ -15,26 +41,35 @@
 #equation-form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #equation {
-  width: 200px;
+  width: 300px;
   height: 50px;
   margin: 20px 0;
   font-size: 24px;
 }
 
 button {
-  width: 200px;
-  height: 30px;
+  width: 120px;
+  height: 35px;
+  margin: 10px;
   border: none;
   border-radius: 3px;
+  font-size: 1.1rem;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 #results {
   display: flex;
   flex-direction: column;
   margin: 10px 0;
-  font-size: 24px;
+  font-size: 2.5rem;
   font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
 }
