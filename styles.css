@@ -31,6 +31,10 @@ p {
   width: 500px;
 }
 
+.error {
+  font-family: 'Roboto', sans-serif;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -63,6 +67,10 @@ button {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
+}
+
+button:hover {
+  background-color: darkgray;
 }
 
 #results {
